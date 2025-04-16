@@ -37,6 +37,7 @@ footer {
     justify-content: center;
     background-color: #1F2937;
     flex-shrink: 0;
+    padding: 20px;
 }
 
 /* CONTENT Flex elements */
@@ -65,13 +66,19 @@ footer {
 
 .card-section {
     gap: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 80px 500px;
 }
 
 /* MISC Styling */
@@ -171,5 +178,17 @@ a {
     padding-top: 10px;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 20px;
+    padding-right: 20px;
+}
 
 
