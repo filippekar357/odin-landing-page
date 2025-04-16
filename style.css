@@ -51,7 +51,7 @@ footer {
 .hero-section, 
 .card-section, 
 .quote-section, 
-.sign-up-section {
+.reserve-section {
     display: flex;
     flex: 1;
     padding: 0 400px;
@@ -79,6 +79,24 @@ footer {
     background-color: #E5E7EB;
     flex-direction: column;
     padding: 80px 500px;
+}
+
+.reserve-section {
+    padding: 70px 400px;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882F6;
+    padding: 70px;
+    border-radius: 25px;
+    justify-content: space-between;
+}
+
+.blue-box-txt {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
 }
 
 /* MISC Styling */
@@ -133,12 +151,12 @@ a {
     box-shadow: inset 0 0 1em 0 #F9FAF8, 0 0 1em 0 #F9FAF8;
 }
 
-.top-sign-up-btn {
+.menu-btn {
     padding: 10px 40px;
     color: #F9FAF8;
     font-size: 18px;
     background-color: #3882F6;
-    border-radius: 10%;
+    border-radius: 20px;
 }
 
 .card-img {
@@ -191,4 +209,23 @@ a {
     padding-right: 20px;
 }
 
+.reserve-header,
+.reserve-btn {
+    font-size: 22px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.reserve-text {
+    font-size: 16px;
+    color: #F9FAF8;
+    padding-top: 15px;
+}
+
+.reserve-btn {
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    border-radius: 15px;
+    padding: 10px 50px;
+}
 
